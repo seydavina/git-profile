@@ -11,7 +11,7 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        sortBy: '', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
@@ -20,7 +20,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['seydavina/git-profile'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -113,24 +113,35 @@ const CONFIG = {
     {
       company: 'Ecoles Au Sénégal',
       position: 'Développeur Fullstack',
-      from: 'Juil. 2024',
+      from: 'Juillet 2024',
       to: "Aujourd'hui",
       companyLink: 'https://www.ecolesausenegal.org/',
     },
   ],
   certifications: [
     {
-      name: '',
-      body: '',
-      year: '',
+      name: 'Software Engineering Essentials',
+      body: 'Compétences acquis : Génie logiciel, Architecture logicielle, Programmation Python, Agile et Scrum, Cycle de vie du développement logiciel (SDLC)',
+      year: '2024',
+      link: 'https://www.credly.com/go/cDzjiYbh',
+    },
+    {
+      name: 'Les fondements du DevOps',
+      body: 'Compétences populaires couvertes dans ce cours : DevOps, Git, Docker',
+      year: '2024',
+      link: '',
+    },
+    {
+      name: 'Design a Professional Business card with QR code using Canva',
+      body: 'Compétences acquis : Code QR, Canva, Conception de cartes de visite, carte de visite, Carte de visite virtuelle',
+      year: '2024',
       link: '',
     },
   ],
   educations: [
     {
       institution: 'Ecole Supérieure Polytechnique de Dakar (ESP)',
-      degree: 
-        "Licence Professionnelle en Génie Logiciel et Systèmes d'Information",
+      degree: "Licence Professionnelle en Génie Logiciel et Systèmes d'Information",
       from: '2023',
       to: '2024',
     },
@@ -153,9 +164,9 @@ const CONFIG = {
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: '', // medium | dev
-    username: '', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: 'medium', // medium | dev
+    username: 'seydinalimamoulayeyade', // to hide blog section, keep it empty
+    limit: 1, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
