@@ -8,10 +8,10 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Github Projects',
+      header: 'Mes Projets GitHub',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: '', // Sort projects by 'stars' or 'updated'
+        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
@@ -24,11 +24,11 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Mes Projets',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Nom Projet',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
@@ -36,7 +36,7 @@ const CONFIG = {
           link: '',
         },
         {
-          title: 'Project Name',
+          title: 'Nom Projet',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
@@ -47,8 +47,8 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Seydina Limamou Laye Yade',
-    description: '',
+    title: 'Seydina Limamou Laye Yade',
+    description: 'Junior Software Engineer | Fullstack Developer',
     imageURL: '',
   },
   social: {
