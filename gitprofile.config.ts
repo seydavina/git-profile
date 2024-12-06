@@ -141,7 +141,8 @@ const CONFIG = {
   educations: [
     {
       institution: 'Ecole Supérieure Polytechnique de Dakar (ESP)',
-      degree: "Licence Professionnelle en Génie Logiciel et Systèmes d'Information",
+      degree: 
+        "Licence Professionnelle en Génie Logiciel et Systèmes d'Information",
       from: '2023',
       to: '2024',
     },
