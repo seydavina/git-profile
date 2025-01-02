@@ -66,7 +66,7 @@ const CONFIG = {
     behance: 'seydinayade',
     medium: 'seydinalimamoulayeyade',
     dev: '',
-    stackoverflow: '20530873', // example: '1/jeff-atwood'
+    stackoverflow: '20530873/seydavina', // example: '1/jeff-atwood'
     skype: '',
     telegram: 'seydavina',
     website: '',
