@@ -36,12 +36,12 @@ const CONFIG = {
           link: 'https://www.taggatma.com/',
         },
         {
-          title: 'Nom Projet',
+          title: 'Plateforme de Gestion et de Billetterie Sportive - Stade de Mbour',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Développement d’une billetterie numérique, suivi des performances des joueurs et encadrement technique.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: '',
+          link: 'https://www.stadedembour.com/',
         },
       ],
     },
